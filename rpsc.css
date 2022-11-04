@@ -1,0 +1,20 @@
+#rock,
+#paper,
+#scissors {
+    margin-top: 1%;
+    margin-left: 145px;
+}
+
+
+body {
+    color: cornflowerblue;
+    background-color: antiquewhite;
+}
+
+.score-board {
+    text-align: center;
+    border-style: solid;
+    font-size: 125%;
+    margin-top: 5%;
+    background-color: white;
+}

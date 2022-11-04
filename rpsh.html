@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Shoot</title>
+    <link rel="stylesheet" href="rpsc.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="heading1">JS Rock, Paper, Scissors</h1>
+    </center>
+
+    <div class="score-board">
+        <div id="score-div">
+            <p id="player-input"></p>
+            <p id="computer-input"></p>
+        </div>
+
+        <div id="results-div">
+            <p id="player-score"></p>
+            <p id="computer-score"></p>
+        </div>
+    </div>
+
+    <button onclick="game.playRound('rock')" id="rock"><img src="rock.jpg"></button>
+    <button onclick="game.playRound('paper')" id="paper"><img src="paper.jpg"></button>
+    <button onclick="game.playRound('scissors')" id="scissors"><img src="scissors.jpg"></button>
+
+    <script src="rpsj.js"></script>
+</body>
+
+</html>
